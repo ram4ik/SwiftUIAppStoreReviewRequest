@@ -11,6 +11,10 @@
 		1DEC900625619CA50023A1E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEC900525619CA50023A1E9 /* ContentView.swift */; };
 		1DEC900825619CAA0023A1E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEC900725619CAA0023A1E9 /* Assets.xcassets */; };
 		1DEC900B25619CAA0023A1E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEC900A25619CAA0023A1E9 /* Preview Assets.xcassets */; };
+		1DEC901425619DC00023A1E9 /* FilleRoundedCornerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEC901325619DC00023A1E9 /* FilleRoundedCornerButton.swift */; };
+		1DEC901725619EAC0023A1E9 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEC901625619EAC0023A1E9 /* SecondView.swift */; };
+		1DEC901B25619F940023A1E9 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEC901A25619F940023A1E9 /* ThirdView.swift */; };
+		1DEC901E2561A13E0023A1E9 /* AppReviewRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEC901D2561A13E0023A1E9 /* AppReviewRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		1DEC900725619CAA0023A1E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DEC900A25619CAA0023A1E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DEC900C25619CAA0023A1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DEC901325619DC00023A1E9 /* FilleRoundedCornerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilleRoundedCornerButton.swift; sourceTree = "<group>"; };
+		1DEC901625619EAC0023A1E9 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		1DEC901A25619F940023A1E9 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		1DEC901D2561A13E0023A1E9 /* AppReviewRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +60,15 @@
 		1DEC900225619CA50023A1E9 /* SwiftUIAppStoreReviewRequest */ = {
 			isa = PBXGroup;
 			children = (
+				1DEC901625619EAC0023A1E9 /* SecondView.swift */,
 				1DEC900325619CA50023A1E9 /* SwiftUIAppStoreReviewRequestApp.swift */,
 				1DEC900525619CA50023A1E9 /* ContentView.swift */,
 				1DEC900725619CAA0023A1E9 /* Assets.xcassets */,
 				1DEC900C25619CAA0023A1E9 /* Info.plist */,
 				1DEC900925619CAA0023A1E9 /* Preview Content */,
+				1DEC901325619DC00023A1E9 /* FilleRoundedCornerButton.swift */,
+				1DEC901A25619F940023A1E9 /* ThirdView.swift */,
+				1DEC901D2561A13E0023A1E9 /* AppReviewRequest.swift */,
 			);
 			path = SwiftUIAppStoreReviewRequest;
 			sourceTree = "<group>";
@@ -139,6 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DEC900625619CA50023A1E9 /* ContentView.swift in Sources */,
+				1DEC901B25619F940023A1E9 /* ThirdView.swift in Sources */,
+				1DEC901425619DC00023A1E9 /* FilleRoundedCornerButton.swift in Sources */,
+				1DEC901E2561A13E0023A1E9 /* AppReviewRequest.swift in Sources */,
+				1DEC901725619EAC0023A1E9 /* SecondView.swift in Sources */,
 				1DEC900425619CA50023A1E9 /* SwiftUIAppStoreReviewRequestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

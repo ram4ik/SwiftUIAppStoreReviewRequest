@@ -8,9 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showSecondView = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack {
+                NavigationLink(destination: SecondView(), isActive: $showSecondView) {
+                    EmptyView()
+                }
+                Button(action: {
+                    self.showSecondView = true
+                }, label: {
+                    Text("Go to Second View")
+                })
+                .buttonStyle(FilleRoundedCornerButton())
+            }.navigationTitle("App Review")
+        }
     }
 }
 
